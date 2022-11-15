@@ -17,6 +17,9 @@ import {
   EditProfile,
   MyVehicles,
   Notification,
+  RecieverDetails,
+  DeliverTerms,
+  Ride,
 } from '../screens';
 
 const AuthStack = createNativeStackNavigator();
@@ -68,6 +71,21 @@ const HomeStack = ({props}) => {
         options={{headerShown: false}}
         name="Notification"
         component={Notification}
+      />
+      <AppStack.Screen
+        options={{headerShown: false}}
+        name="RecieverDetails"
+        component={RecieverDetails}
+      />
+      <AppStack.Screen
+        options={{headerShown: false}}
+        name="DeliverTerms"
+        component={DeliverTerms}
+      />
+      <AppStack.Screen
+        options={{headerShown: false}}
+        name="Ride"
+        component={Ride}
       />
     </AppStack.Navigator>
   );

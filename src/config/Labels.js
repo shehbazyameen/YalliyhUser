@@ -42,5 +42,6 @@ export const labels = {
   no: 'No',
   notifications: 'Notifications',
   viewMore: 'View More',
+  home:"Home",
   // padding22: 'padding22',
 };

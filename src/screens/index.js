@@ -11,6 +11,9 @@ import Profile from './Profile/Profile';
 import EditProfile from './Profile/EditProfile';
 import MyVehicles from './MyVehicles/MyVehicles';
 import Notification from './Notification/Notification';
+import RecieverDetails from './Details/RecieverDetails';
+import DeliverTerms from './Details/DeliverTerms';
+import Ride from './Ride/Ride';
 
 export {
   Splash,
@@ -26,4 +29,7 @@ export {
   EditProfile,
   MyVehicles,
   Notification,
+  RecieverDetails,
+  DeliverTerms,
+  Ride,
 };
