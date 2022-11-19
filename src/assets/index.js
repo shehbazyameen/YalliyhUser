@@ -35,4 +35,5 @@ export const Assets = {
   backImageProfile: require('../assets/images/backImageProfile.jpg'),
   bellIcon: require('../assets/images/bellIcon.png'),
   deliveryBox: require('../assets/images/delivery-box.png'),
-  car: require('../assets/images/car.png'),                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  car: require('../assets/images/car.png'),
+};
